@@ -12,7 +12,7 @@
     />
     <link rel="stylesheet" href="./src/css/output.css" />
   </head>
-  <body dir="rtl" class="bg-gray-100">
+  <body dir="rtl" class="">
     <!-- Start Header -->
     <div
       id="overlay"
@@ -20,18 +20,154 @@
     ></div>
     <header id="header" class="relative z-60 bg-white shadow">
       <div
-        class="container flex flex-col max-w-screen-xl mx-auto px-4 font-normal font-[shabnam] select-none"
+        dir="ltr"
+        class="container-div hidden lg:flex flex-col w-full max-w-screen-xl mx-auto px-4 font-normal font-[shabnam] select-none"
       >
-        <div class="upper-part"></div>
+        <div
+          class="upper-part flex items-center justify-between mt-6 mb-2 h-[45px]"
+        >
+          <!-- Left side: Login/Register & Cart -->
+          <div class="flex items-center space-x-4 space-x">
+            <button
+              class="bg-[#0B5ABD] text-white rounded-lg px-3 h-[40px] font-normal text-sm hover:bg-[#084b9c] transition-colors"
+            >
+              ورود و ثبت‌نام
+            </button>
+            <div class="relative">
+              <button
+                class="bg-[#F7F8FA] rounded-lg shadow px-2 py-2 flex items-center group"
+              >
+                <svg
+                  class="w-6 h-6 text-[#FE5F55] group-hover:text-[#0A295A] transition-colors"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 32 32"
+                >
+                  <g id="cart">
+                    <path
+                      fill="currentColor"
+                      d="M29.46 10.14A2.94 2.94 0 0 0 27.1 9H10.22L8.76 6.35A2.67 2.67 0 0 0 6.41 5H3a1 1 0 0 0 0 2h3.41a.68.68 0 0 1 .6.31l1.65 3 .86 9.32a3.84 3.84 0 0 0 4 3.38h10.37a3.92 3.92 0 0 0 3.85-2.78l2.17-7.82a2.58 2.58 0 0 0-.45-2.27zM28 11.86l-2.17 7.83A1.93 1.93 0 0 1 23.89 21H13.48a1.89 1.89 0 0 1-2-1.56L10.73 11H27.1a1 1 0 0 1 .77.35.59.59 0 0 1 .13.51z"
+                    />
+                    <circle fill="currentColor" cx="14" cy="26" r="2" />
+                    <circle fill="currentColor" cx="24" cy="26" r="2" />
+                  </g>
+                </svg>
+              </button>
+              <span
+                class="absolute top-0 right-0 -mt-2 -mr-2 bg-[#FE5F55] text-white rounded-full w-4 h-4 flex items-center justify-center text-xs font-bold"
+                >۰</span
+              >
+            </div>
+          </div>
+          <!-- Right side: Search & Logo -->
+          <div class="flex items-center space-x-6 space-x-reverse">
+            <!-- Center: Navigation links -->
+
+            <div
+              dir="rtl"
+              class="flex items-center space-x-6 space-x text-[#A3A3A3] text-[14px] font-normal text-center"
+            >
+              <a href="#" class="hover:text-[#0A295A]">باشگاه مشتریان</a>
+              <a href="#" class="hover:text-[#0A295A]">بلاگ</a>
+              <a href="#" class="hover:text-[#0A295A]">ارتباط ما</a>
+              <a href="#" class="hover:text-[#0A295A]">درباره ما</a>
+            </div>
+            <div class="relative inline-block" dir="rtl">
+              <input
+                dir="rtl"
+                type="text"
+                placeholder="جستجو محصولات"
+                class="rounded-xl bg-[#F7F8FA] pr-10 pl-3 py-2 text-base focus:outline-none text-[#666] shadow min-w-[280px] w-[360px] placeholder:text-gray-500"
+                id="search-main"
+              />
+              <svg
+                class="absolute right-3 top-1/2 -translate-y-1/2 w-5 h-5 text-[#666]"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <circle cx="11" cy="11" r="8" stroke-width="2"></circle>
+                <line
+                  x1="21"
+                  y1="21"
+                  x2="16.65"
+                  y2="16.65"
+                  stroke-width="2"
+                ></line>
+              </svg>
+            </div>
+
+            <img src="./src/img/logo.png" alt="Dastresi Logo" class="w-24" />
+          </div>
+        </div>
         <nav class="relative">
           <ul
             id="menu"
-            class="max-w-screen-xl relative flex space-x-reverse space-x-6 w-full h-[56px]"
+            dir="rtl"
+            class="hidden lg:flex relative flex-row h-[56px] bg-white lg:pt-3 active w-full justify-center"
           ></ul>
         </nav>
       </div>
+      <!-- Hamburger for mobile -->
+      <div
+        class="lg:hidden flex items-center justify-between px-3 py-4 h-[48px] bg-[#EFEFEF]"
+      >
+        <button
+          id="menu-toggle"
+          class="lg:hidden block p-2 rounded focus:outline-none focus:ring-2 focus:ring-[#FE5F55] duration-400 transition-all"
+        >
+          <svg
+            class="w-6 h-6 text-[#FE5F55]"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            ></path>
+          </svg>
+        </button>
+      </div>
     </header>
-
+    <!-- End Header -->
+    <!-- Mobile menu -->
+    <div
+      id="mobile-menu"
+      dir="rtl"
+      class="fixed top-0 right-0 w-0 h-full bg-white z-[100] overflow-scroll  transition-all duration-300 lg:hidden flex flex-col shadow-lg"
+    >
+      <!-- Close button -->
+      <div class="flex flex-col p-3 space-y-4">
+        <div class="flex justify-between mb-8">
+          <button id="mobile-menu-close" class="p-1 mb-4">
+            <svg
+              class="w-6 h-6 text-[#FE5F55]"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <line x1="18" y1="6" x2="6" y2="18" stroke-width="2"></line>
+              <line x1="6" y1="6" x2="18" y2="18" stroke-width="2"></line>
+            </svg>
+          </button>
+          <img src="./src/img/logo.png" alt="Dastresi Logo" class="w-[40%]" />
+        </div>
+        <div class="w-full flex flex-col gap-3">
+          <hr class="h-px w-full text-[#e2e8f0]" />
+          <div class="flex justify-evenly font-[shabnam] text-[#A3A3A3]">
+            <span class="hover:text-black">خانه</span>
+            <span class="hover:text-black">درباره ما</span>
+            <span class="hover:text-black">تماس با ما</span>
+            <span class="hover:text-black">بلاگ</span>
+          </div>
+          <hr class="h-px w-full text-[#e2e8f0] mb-2" />
+        </div>
+        <div class="overflow-auto mt-4 mr-2 mb-16"></div>
+      </div>
+    </div>
     <script type="module" src="./src/js/main.js"></script>
   </body>
 </html>
