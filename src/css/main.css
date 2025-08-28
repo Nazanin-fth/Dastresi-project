@@ -19,3 +19,26 @@ body {
     font-size: 11.5px;
   }
 }
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+
+}
+
+.swiper-slide img {
+  display: block;
+}
+.swiper-pagination-bullet {
+  background: #ccc; /* gray */
+  opacity: 1; 
+  width: 10px;
+  height: 10px;
+}
+
+/* active bullet */
+.swiper-pagination-bullet-active {
+  background: #222222; 
+}

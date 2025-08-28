@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./src/img/favicon.png" />
     <title>فروشگاه اینترنتی دسترسی</title>
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link
       href="https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam.css"
       rel="stylesheet"
@@ -13,11 +18,13 @@
     <link rel="stylesheet" href="./src/css/output.css" />
   </head>
   <body dir="rtl" class="">
-    <!-- Start Header -->
+    <!-- menu overlay -->
     <div
       id="overlay"
       class="fixed inset-0 bg-[rgba(0,0,0,0.16)] opacity-0 invisible transition-opacity duration-200 z-40"
     ></div>
+    <!-- Start Header -->
+
     <header id="header" class="relative z-60 bg-white shadow">
       <div
         dir="ltr"
@@ -58,19 +65,20 @@
               >
             </div>
           </div>
-          <!-- Right side: Search & Logo -->
           <div class="flex items-center space-x-6 space-x-reverse">
-            <!-- Center: Navigation links -->
-
             <div
               dir="rtl"
               class="flex items-center space-x-6 space-x text-[#A3A3A3] text-[14px] font-normal text-center"
             >
+              <!-- Center: Navigation links -->
+
               <a href="#" class="hover:text-[#0A295A]">باشگاه مشتریان</a>
               <a href="#" class="hover:text-[#0A295A]">بلاگ</a>
               <a href="#" class="hover:text-[#0A295A]">ارتباط ما</a>
               <a href="#" class="hover:text-[#0A295A]">درباره ما</a>
             </div>
+            <!-- Right side: Search & Logo -->
+
             <div class="relative inline-block" dir="rtl">
               <input
                 dir="rtl"
@@ -111,25 +119,58 @@
       <div
         class="lg:hidden flex items-center justify-between px-3 py-4 h-[48px] bg-[#EFEFEF]"
       >
-        <button
-          id="menu-toggle"
-          class="lg:hidden block p-2 rounded focus:outline-none focus:ring-2 focus:ring-[#FE5F55] duration-400 transition-all"
-        >
-          <svg
-            class="w-6 h-6 text-[#FE5F55]"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+        <div class="flex items-center gap-3">
+          <button
+            id="menu-toggle"
+            class="lg:hidden block p-2 rounded focus:outline-none focus:ring-2 focus:ring-[#FE5F55] duration-400 transition-all"
           >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h16M4 18h16"
-            ></path>
-          </svg>
-        </button>
+            <svg
+              class="w-6 h-6 text-[#FE5F55]"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </button>
+          <a href="/"><img src="./src/img/logo.png" class="w-14" /></a>
+        </div>
+        <div class="flex flex-row items-center justify-center gap-3">
+          <a class="w-5 h-5" href="/"
+            ><img src="./src/icon/search-alt.svg" alt=""
+          /></a>
+          <a href="/" class="w-6 h-6"
+            ><img src="./src/icon/user-heart.svg" alt=""
+          /></a>
+          <div class="relative">
+            <button class="rounded-lg flex items-center group">
+              <svg
+                class="w-6 h-6 text-[#666666] group-hover:text-[#0A295A] transition-colors"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 32 32"
+              >
+                <g id="cart">
+                  <path
+                    fill="currentColor"
+                    d="M29.46 10.14A2.94 2.94 0 0 0 27.1 9H10.22L8.76 6.35A2.67 2.67 0 0 0 6.41 5H3a1 1 0 0 0 0 2h3.41a.68.68 0 0 1 .6.31l1.65 3 .86 9.32a3.84 3.84 0 0 0 4 3.38h10.37a3.92 3.92 0 0 0 3.85-2.78l2.17-7.82a2.58 2.58 0 0 0-.45-2.27zM28 11.86l-2.17 7.83A1.93 1.93 0 0 1 23.89 21H13.48a1.89 1.89 0 0 1-2-1.56L10.73 11H27.1a1 1 0 0 1 .77.35.59.59 0 0 1 .13.51z"
+                  />
+                  <circle fill="currentColor" cx="14" cy="26" r="2" />
+                  <circle fill="currentColor" cx="24" cy="26" r="2" />
+                </g>
+              </svg>
+            </button>
+            <span
+              class="absolute top-0 right-0 -mt-2 -mr-2 bg-[#FE5F55] text-white rounded-full w-4 h-4 flex items-center justify-center text-xs font-bold font-[shabnam]"
+              >۰</span
+            >
+          </div>
+        </div>
       </div>
     </header>
     <!-- End Header -->
@@ -137,7 +178,7 @@
     <div
       id="mobile-menu"
       dir="rtl"
-      class="fixed top-0 right-0 w-0 h-full bg-white z-[100] overflow-scroll  transition-all duration-300 lg:hidden flex flex-col shadow-lg"
+      class="fixed top-0 right-0 w-0 h-full bg-white z-[100] overflow-auto transition-all duration-300 lg:hidden flex flex-col shadow-lg"
     >
       <!-- Close button -->
       <div class="flex flex-col p-3 space-y-4">
@@ -153,10 +194,12 @@
               <line x1="6" y1="6" x2="18" y2="18" stroke-width="2"></line>
             </svg>
           </button>
+          <!-- mobile menu logo -->
           <img src="./src/img/logo.png" alt="Dastresi Logo" class="w-[40%]" />
         </div>
         <div class="w-full flex flex-col gap-3">
           <hr class="h-px w-full text-[#e2e8f0]" />
+          <!-- linear menu -->
           <div class="flex justify-evenly font-[shabnam] text-[#A3A3A3]">
             <span class="hover:text-black">خانه</span>
             <span class="hover:text-black">درباره ما</span>
@@ -165,9 +208,55 @@
           </div>
           <hr class="h-px w-full text-[#e2e8f0] mb-2" />
         </div>
-        <div class="overflow-auto mt-4 mr-2 mb-16"></div>
+        <!-- mobile JS menu -->
+        <div class="overflow-auto mt-4 mr-2 mb-16 text-sm font-[shabnam]"></div>
+        <div class="flex justify-center">
+          <a
+            class="p-3 text-sm text-center rounded-xl mx-4 bg-[#0A295A] text-white hover:bg-[#071c3e] mb-16 font-[shabnam]"
+            href="/"
+          >
+            ورود به باشگاه مشتریان
+          </a>
+        </div>
       </div>
     </div>
+    <main>
+      <div class="max-w-screen-xl mx-auto p-8 flex">
+        <!-- start swiper one -->
+        <div class="swiper swiper-1">
+          <div class="swiper-wrapper"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!-- End swiper one -->
+      <!-- Discount Section -->
+      <div class="flex justify-center">
+        <div
+          class="px-4 pb-4 md:px-12 md:pb-12 xl:mx-4 bg-gray-e2 xl:rounded-xl mb-8 bg-[#e2e2e2] max-w-screen-xl w-full"
+        >
+          <!-- Upper Part -->
+          <div class="flex py-7 justify-between font-[shabnam] items-center gap-2">
+            <div class="flex items-center gap-2">
+              <img src="./src/icon/percent.svg" class="w-9 h-9 opacity-80" />
+              <span
+                class="font-[shabnam] font-bold text-lg md:text-4xl text-[#757575]"
+              >
+                تخفیف‌های روزانه دسترسی
+              </span>
+            </div>
+            <div
+              id="timer-1"
+              class="font-[shabnam] text-[#757575] text-xl md:text-2xl font-medium"
+              dir="ltr"
+            ></div>
+          </div>
+          <div class="grid-1 grid mt-2"></div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" src="./src/js/main.js"></script>
   </body>
 </html>
