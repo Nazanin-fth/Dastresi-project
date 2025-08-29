@@ -1,0 +1,34 @@
+[
+  {
+    "title": "آداپتور",
+    "img": "./src/img/category/adaptor.png"
+  },
+  {
+    "title": "باتری",
+    "img": "./src/img/category/battery.png"
+  },
+  {
+    "title": "کابل",
+    "img": "./src/img/category/cable.png"
+  },
+  {
+    "title": "گیمینگ",
+    "img": "./src/img/category/gaming.png"
+  },
+  {
+    "title": "هندزفری",
+    "img": "./src/img/category/handsfree.png"
+  },
+  {
+    "title": "هولدر",
+    "img": "./src/img/category/Holder.png"
+  },
+  {
+    "title": "مبدل و رابط",
+    "img": "./src/img/category/mobadel o rabet.png"
+  },
+  {
+    "title": "پاوربانک",
+    "img": "./src/img/category/powerbank.png"
+  }
+]

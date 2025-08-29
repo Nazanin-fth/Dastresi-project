@@ -1,0 +1,101 @@
+[
+  {
+    "title": "پاوربانک وایرلس شارژ سولار 27000 میلی‌آمپر پاورولوژی مدل Powerology PP077",
+    "category": "پاوربانک و جامپ استارتر",
+    "img": "./src/img/new-items/POWEROLOGY.png",
+    "price": 3685000,
+    "oldPrice": 3900000,
+    "outOfStock": false,
+    "color": "#000000"
+  },
+  {
+    "title": "کابل شارژ مگنتی تایپ‌سی به لایتنینگ مک‌دودو",
+    "category": "کابل شارژ تایپ سی به لایتنینگ",
+    "img": "./src/img/new-items/MCDODO.png",
+    "price": 550000,
+    "oldPrice": 580000,
+    "outOfStock": false,
+    "color": "#000000"
+  },
+  {
+    "title": "پاوربانک 500000 میلی‌آمپر 130 واتی Power Bank",
+    "category": "پاوربانک و جامپ استارتر",
+    "img": "./src/img/new-items/ORAIMO725.png",
+    "price": null,
+    "oldPrice": null,
+    "outOfStock": true,
+    "color": "#F59E42"
+  },
+  {
+    "title": "جویسر 600 میلی‌لیتر گرین مدل Green Lion",
+    "category": "لوازم خانگی و شخصی",
+    "img": "./src/img/new-items/juser-green.png",
+    "price": 2390000,
+    "oldPrice": null,
+    "outOfStock": false,
+    "color": "#000000"
+  },
+  {
+    "title": "ماساژور توپی گرین Lion",
+    "category": "انواع گجت‌های جذاب",
+    "img": "./src/img/new-items/MASSAGE-BALL.png",
+    "price": null,
+    "oldPrice": null,
+    "outOfStock": true,
+    "color": "#000000"
+  },
+  {
+    "title": "شارژر رومیزی 140 واتی الدینیو مدل Ldnio Q4010",
+    "category": "شارژر دیواری و رومیزی",
+    "img": "./src/img/new-items/Q4010-11.png",
+    "price": 2295000,
+    "oldPrice": null,
+    "outOfStock": false,
+    "color": "#000000"
+  },
+  {
+    "title": "پمپ باد بی‌سیم گرین Lion INFLATOR",
+    "category": "گجت خودرو",
+    "img": "./src/img/new-items/POMP-GREEN-11.png",
+    "price": 1790000,
+    "oldPrice": null,
+    "outOfStock": false,
+    "color": "#000000"
+  },
+  {
+    "title": "کابل شارژ مگنتی تایپ سی به لایتنینگ",
+    "category": "کابل شارژ تایپ سی به لایتنینگ",
+    "img": "./src/img/new-items/MCDODO.png",
+    "price": 550000,
+    "oldPrice": 580000,
+    "outOfStock": false,
+    "color": "#222"
+  },
+  {
+    "title": " 150 واتی جت‌فن مدل Jetfan 150W",
+    "category": "انواع گجت‌های جذاب",
+    "img": "./src/img/new-items/JETFAN-11.png",
+    "price": null,
+    "oldPrice": null,
+    "outOfStock": true,
+    "color": "#000000"
+  },
+  {
+    "title": "شارژر دیواری 20 واتی به همراه کابل دوسر تایپ سی انکر مدل Anker B2348",
+    "category": "کابل شارژ",
+    "img": "./src/img/new-items/ANKER.png",
+    "price": 950000,
+    "oldPrice": null,
+    "outOfStock": false,
+    "color": "#ffffff"
+  },
+  {
+    "title": " پاوربانک 50000 میلی آمپر 22.5 واتی...",
+    "category": "پاوربانک و جامپ استارتر",
+    "img": "./src/img/new-items/50GREEN.png",
+    "price": null,
+    "oldPrice": null,
+    "outOfStock": true,
+    "color": "#000000"
+  }
+]

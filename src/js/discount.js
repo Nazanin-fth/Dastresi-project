@@ -68,7 +68,7 @@ function cardVertical(card) {
         <img src="${card.image}" alt="${
     card.title
   }" class="w-auto object-contain mb-4" />
-        <div class="text-center font-[shabnam] text-base md:text-lg text-black mb-4">${
+        <div class="font-[shabnam] text-base text-black mb-4 leading-8 text-right">${
           card.title
         }</div>
         <div class="w-full mt-auto flex flex-col items-center gap-2">
@@ -103,7 +103,7 @@ function cardTemplate(card) {
     card.title
   }" class="w-24 h-24 object-contain ml-4" />
         <div class="flex-1 flex flex-col justify-between">
-          <div class="text-right font-[shabnam] text-base md:text-lg text-black mb-2">${
+          <div class="text-right font-[shabnam] text-sm text-black mb-2 leading-7">${
             card.title
           }</div>
           <div class="flex items-center justify-between font-[shabnam]">
@@ -134,3 +134,4 @@ fetch("./src/json/card.json")
     renderCards(cards);
     window.addEventListener("resize", () => renderCards(cards));
   });
+// add text-sm and even cards
