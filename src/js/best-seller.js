@@ -1,13 +1,15 @@
-let newItemsData = [];
-let newItemsSwiperInstance = null;
+let bestSellerData = [];
+let bestSellerSwiperInstance = null;
 
 function formatPrice(price) {
   return price ? price.toLocaleString("fa-IR") : "";
 }
 
-function renderNewItemsSlides() {
-  const wrapper = document.querySelector(".swiper-new-items .swiper-wrapper");
-  wrapper.innerHTML = newItemsData
+function renderbestSellerSlides() {
+  const wrapper = document.querySelector(
+    ".swiper-best-sellers .swiper-wrapper"
+  );
+  wrapper.innerHTML = bestSellerData
     .map((item) => {
       // Always treat color as array
       const colors = Array.isArray(item.color) ? item.color : [item.color];
@@ -68,20 +70,20 @@ function createNavButton(className, direction) {
     </div>`;
 }
 
-function initNewItemsSwiper() {
-  if (newItemsSwiperInstance) newItemsSwiperInstance.destroy(true, true);
+function initbestSellerSwiper() {
+  if (bestSellerSwiperInstance) bestSellerSwiperInstance.destroy(true, true);
 
   // Custom navigation buttons
   const prevBtn = document.querySelector(
-    ".swiper-new-items .swiper-button-prev"
+    ".swiper-best-sellers .swiper-button-prev"
   );
   const nextBtn = document.querySelector(
-    ".swiper-new-items .swiper-button-next"
+    ".swiper-best-sellers .swiper-button-next"
   );
   if (prevBtn) prevBtn.innerHTML = createNavButton("custom-nav-prev", "left");
   if (nextBtn) nextBtn.innerHTML = createNavButton("custom-nav-next", "right");
 
-  newItemsSwiperInstance = new Swiper(".swiper-new-items", {
+  bestSellerSwiperInstance = new Swiper(".swiper-best-sellers", {
     slidesPerView: 4,
     spaceBetween: 20,
     loop: true,
@@ -91,26 +93,26 @@ function initNewItemsSwiper() {
       disableOnInteraction: false,
     },
     navigation: {
-      nextEl: ".swiper-new-items .swiper-button-next",
-      prevEl: ".swiper-new-items .swiper-button-prev",
+      nextEl: ".swiper-best-sellers .swiper-button-next",
+      prevEl: ".swiper-best-sellers .swiper-button-prev",
     },
     pagination: false,
     breakpoints: {
       0: { slidesPerView: 1.4 },
       640: { slidesPerView: 3 },
-      1024: { slidesPerView: 4 }
+      1024: { slidesPerView: 4 },
     },
   });
 }
 
-fetch("./src/json/new-items.json")
+fetch("./src/json/best-seller.json")
   .then((res) => res.json())
   .then((items) => {
-    newItemsData = items;
-    renderNewItemsSlides();
-    initNewItemsSwiper();
+    bestSellerData = items;
+    renderbestSellerSlides();
+    initbestSellerSwiper();
     window.addEventListener("resize", () => {
-      renderNewItemsSlides();
-      initNewItemsSwiper();
+      renderbestSellerSlides();
+      initbestSellerSwiper();
     });
   });

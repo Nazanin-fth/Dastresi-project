@@ -1,0 +1,102 @@
+[
+  {
+    "title": "باتری نیم قلم 10 تایی شیائومی مدل Xiaomi ZI7",
+    "category": "باتری",
+    "img": "./src/img/best-sellers/battery1.png",
+    "price": 249000,
+    "oldPrice": null,
+    "outOfStock": false,
+    "color": ["#1500FF", "#BCE441"]
+  },
+  {
+    "title": "باتری قلمی 10تایی شیائومی مدل Xiaomi ZI5",
+    "category": "باتری",
+    "img": "./src/img/best-sellers/battery2.png",
+    "price": 249000,
+    "oldPrice": null,
+    "outOfStock": false,
+    "color": ["#1500FF", "#BCE441"]
+  },
+
+  {
+    "title": "کیبورد بلوتوثی مافی مدل Mofii Phoenix",
+    "category": "ماوس و کیبورد و پدموس",
+    "img": "./src/img/best-sellers/key.png",
+    "price": 2390000,
+    "oldPrice": 2590000,
+    "outOfStock": false,
+    "color": "#000000"
+  },
+  {
+    "title": "هندزفری بلوتوثی ورزشی القایی پاورولوژی مدل Powerology Pwlau008",
+    "category": "هندزفری بلوتوث دو گوش",
+    "img": "./src/img/best-sellers/handsfree.png",
+    "price": 2800000,
+    "oldPrice": 3100000,
+    "outOfStock": false,
+    "color": "#000000"
+  },
+  {
+    "title": "شارژر دیواری گان 100 واتی الدینیو مدل Ldnio Q408",
+    "category": "شارژر دیواری",
+    "img": "./src/img/best-sellers/charger.png",
+    "price": 2280000,
+    "oldPrice": 3280000,
+    "outOfStock": false,
+    "color": "#ffffff"
+  },
+  {
+    "title": "هندزفری بلوتوثی A30i انکر مدل Anker A3958",
+    "category": "هندزفری بلوتوث دو گوش",
+    "img": "./src/img/best-sellers/ankerhandsfree.png",
+    "price": 1980000,
+    "oldPrice": null,
+    "outOfStock": false,
+    "color": "#000000"
+  },
+  {
+    "title": "هاب تایپ سی 6 کاره انکر مدل Anker A8363",
+    "category": "انواع گجت های جذاب",
+    "img": "./src/img/best-sellers/hub.png",
+    "price": 2490000,
+    "oldPrice": null,
+    "outOfStock": true,
+    "color": ["#000000", "#a9adb1"]
+  },
+  {
+    "title": "جامپ استاتر و پمپ باد گرین مدل Green Lion GN12VJUSTBK",
+    "category": "انواع گجت های جذاب",
+    "img": "./src/img/best-sellers/jumpstart.png",
+    "price": 9490000,
+    "oldPrice": null,
+    "outOfStock": false,
+    "color": "#000000"
+  },
+  {
+    "title": "پمپ باد بی‌سیم گرین Lion INFLATOR",
+    "category": "گجت خودرو",
+    "img": "./src/img/best-sellers/pomp.png",
+    "price": 1790000,
+    "oldPrice": null,
+    "outOfStock": false,
+    "color": "#000000"
+  },
+  {
+    "title": "شارژر دیواری 67 واتی گان با کابل تایپ سی مک دودو مدل Mcdodo CH-410",
+    "category": "شارژر دیواری",
+    "img": "./src/img/best-sellers/gunch.png",
+    "price": 1928000,
+    "oldPrice": 2283000,
+    "outOfStock": false,
+    "color": "#000000"
+  },
+  {
+    "title": "شارژر دیواری 25 وات هادرون مدل Hadron C1011",
+    "category": "شارژر دیواری",
+    "img": "./src/img/best-sellers/hardon.png",
+    "price": 595000,
+    "oldPrice": 625000,
+    "outOfStock": false,
+    "color": ["#000000", "#ffffff"]
+  }
+]

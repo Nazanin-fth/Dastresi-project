@@ -60,3 +60,22 @@ body {
   font-size: 12px; 
   color: #757575; 
 }
+.swiper-best-sellers .swiper-button-prev,
+.swiper-best-sellers .swiper-button-next {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.swiper-best-sellers .swiper-button-prev::after,
+.swiper-best-sellers .swiper-button-next::after {
+  font-size: 12px; 
+  color: #757575; 
+}

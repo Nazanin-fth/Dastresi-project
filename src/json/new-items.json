@@ -6,7 +6,7 @@
     "price": 3685000,
     "oldPrice": 3900000,
     "outOfStock": false,
-    "color": "#000000"
+    "color": ["#000000","#82A8BF"]
   },
   {
     "title": "کابل شارژ مگنتی تایپ‌سی به لایتنینگ مک‌دودو",
@@ -24,7 +24,7 @@
     "price": null,
     "oldPrice": null,
     "outOfStock": true,
-    "color": "#F59E42"
+    "color": ["#000000","#81858c"]
   },
   {
     "title": "جویسر 600 میلی‌لیتر گرین مدل Green Lion",
