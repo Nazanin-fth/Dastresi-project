@@ -6,3 +6,5 @@ import './discount.js';
 import './category.js';
 import './new-items.js';
 import './best-seller.js';
+import './brands.js';
+import './blog.js';
