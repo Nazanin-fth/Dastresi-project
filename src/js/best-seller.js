@@ -105,7 +105,7 @@ function initbestSellerSwiper() {
   });
 }
 
-fetch("./src/json/best-seller.json")
+fetch("./json/best-seller.json")
   .then((res) => res.json())
   .then((items) => {
     bestSellerData = items;

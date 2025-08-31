@@ -39,7 +39,7 @@ function initCategorySwiper() {
   });
 }
 
-fetch("./src/json/category.json")
+fetch("./json/category.json")
   .then((res) => res.json())
   .then((categories) => {
     categoriesData = categories;

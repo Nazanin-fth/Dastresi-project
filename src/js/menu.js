@@ -139,7 +139,7 @@ function createMenu(items, isSub = false) {
 }
 
 // Fetch JSON dynamically
-fetch("./src/json/menu.json")
+fetch("./json/menu.json")
   .then((res) => res.json())
   .then((menuData) => {
     menuContainer.appendChild(createMenu(menuData));

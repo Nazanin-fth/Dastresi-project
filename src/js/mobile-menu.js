@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // fetch menu data
   try {
-    const res = await fetch("./src/json/menu.json");
+    const res = await fetch("./json/menu.json");
     if (!res.ok) throw new Error("Could not load menu.json: " + res.status);
     const menuData = await res.json();
 

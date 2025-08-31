@@ -37,7 +37,7 @@ function initSwiper() {
   });
 }
 // Fetch data
-fetch("./src/json/banner.json")
+fetch("./json/banner.json")
   .then((res) => res.json())
   .then((banners) => {
     bannersData = banners;

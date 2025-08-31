@@ -103,7 +103,7 @@ function initNewItemsSwiper() {
   });
 }
 
-fetch("./src/json/new-items.json")
+fetch("./json/new-items.json")
   .then((res) => res.json())
   .then((items) => {
     newItemsData = items;
