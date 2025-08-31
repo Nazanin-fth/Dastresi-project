@@ -19,6 +19,7 @@ new Swiper(".swiper-blog", {
       pagination: { el: ".swiper-pagination-blog", clickable: true },
     },
     0: {
+      slidesPerGroup: 1,
       slidesPerView: 1,
       pagination: { el: ".swiper-pagination-blog", clickable: true },
     },
