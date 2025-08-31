@@ -8,7 +8,7 @@ function renderCategorySlides() {
       (cat) => `
         <div class="swiper-slide flex flex-col items-center justify-center">
           <a href="${
-            cat.url || "javascript:void(0)"
+            cat.url || ""
           }" class="flex flex-col items-center justify-center w-full h-full">
             <img src="${cat.img}" alt="${
         cat.title

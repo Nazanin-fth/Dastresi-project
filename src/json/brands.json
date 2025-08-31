@@ -3,42 +3,42 @@
     "name": "ANKER",
     "img": "./src/img/brands/logo-1.png",
     "alt": "انکر",
-    "url": "javascript:void(0)"
+    "url": "#"
   },
   {
     "name": "INOBEN",
     "img": "./src/img/brands/logo-2.png",
     "alt": "اینو بن",
-    "url": "javascript:void(0)"
+    "url": "#"
   },
   {
     "name": "RAVPOWER",
     "img": "./src/img/brands/3.png",
     "alt": "راوپاور",
-    "url": "javascript:void(0)"
+    "url": "#"
   },
   {
     "name": "McDodo",
     "img": "./src/img/brands/4.png",
     "alt": "مک دودو",
-    "url": "javascript:void(0)"
+    "url": "#"
   },
   {
     "name": "Camelion",
     "img": "./src/img/brands/5.png",
     "alt": "کملیون",
-    "url": "javascript:void(0)"
+    "url": "#"
   },
   {
     "name": "powerology",
     "img": "./src/img/brands/6.png",
     "alt": "powerology",
-    "url": "javascript:void(0)"
+    "url": "#"
   },
   {
     "name": "ACEFAST",
     "img": "./src/img/brands/7.png",
     "alt": "ایس فست",
-    "url": "javascript:void(0)"
+    "url": "#"
   }
 ]

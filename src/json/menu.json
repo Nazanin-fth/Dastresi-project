@@ -1,120 +1,114 @@
 [
-  { "title": "خانه", "link": "javascript:void(0)" },
+  { "title": "خانه", "link": "" },
   {
     "title": "لوازم جانبی موبایل و کامپیوتر",
-    "link": "javascript:void(0)",
+    "link": "",
     "children": [
-      { "title": "ماوس و کیبورد و پدموس", "link": "javascript:void(0)" },
-      { "title": "اسپیکر", "link": "javascript:void(0)" },
+      { "title": "ماوس و کیبورد و پدموس", "link": "" },
+      { "title": "اسپیکر", "link": "" },
       {
         "title": "تجهیزات ذخیره سازی",
-        "link": "javascript:void(0)",
+        "link": "",
         "children": [
-          { "title": "هارد اکسترنال", "link": "javascript:void(0)" },
-          { "title": "فلش مموری", "link": "javascript:void(0)" },
-          { "title": "کارت حافظه", "link": "javascript:void(0)" }
+          { "title": "هارد اکسترنال", "link": "" },
+          { "title": "فلش مموری", "link": "" },
+          { "title": "کارت حافظه", "link": "" }
         ]
       },
       {
         "title": "کابل شارژ",
-        "link": "javascript:void(0)",
+        "link": "",
         "children": [
-          {
-            "title": "کابل شارژ  میکرو یو اس بی",
-            "link": "javascript:void(0)"
-          },
-          { "title": " کابل شارژ تایپ سی", "link": "javascript:void(0)" },
-          { "title": "کابل شارژ لایتنینگ", "link": "javascript:void(0)" },
-          {
-            "title": "کابل کابل شارژ تایپ سی به لایتنینگ",
-            "link": "javascript:void(0)"
-          },
-          { "title": "کابل شارژ سه کاره", "link": "javascript:void(0)" },
-          { "title": "کابل شارژ سامسونگ", "link": "javascript:void(0)" },
-          { "title": "کابل شارژ آیفون", "link": "javascript:void(0)" }
+          { "title": "کابل شارژ  میکرو یو اس بی", "link": "" },
+          { "title": " کابل شارژ تایپ سی", "link": "" },
+          { "title": "کابل شارژ لایتنینگ", "link": "" },
+          { "title": "کابل کابل شارژ تایپ سی به لایتنینگ", "link": "" },
+          { "title": "کابل شارژ سه کاره", "link": "" },
+          { "title": "کابل شارژ سامسونگ", "link": "" },
+          { "title": "کابل شارژ آیفون", "link": "" }
         ]
       },
       {
         "title": "هندزفری و هدست، میکروفون",
-        "link": "javascript:void(0)",
+        "link": "",
         "children": [
-          { "title": "میکروفون", "link": "javascript:void(0)" },
-          { "title": "هندزفری سیم دار", "link": "javascript:void(0)" },
-          { "title": "هدست سیم دار", "link": "javascript:void(0)" },
-          { "title": "هدفون بلوتوث", "link": "javascript:void(0)" },
-          { "title": "هندزفری بلوتوث دو گوش", "link": "javascript:void(0)" },
-          { "title": "هندزفری بلوتوث دورگردنی", "link": "javascript:void(0)" },
-          { "title": "هندزفری بلوتوث تک گوش", "link": "javascript:void(0)" }
+          { "title": "میکروفون", "link": "" },
+          { "title": "هندزفری سیم دار", "link": "" },
+          { "title": "هدست سیم دار", "link": "" },
+          { "title": "هدفون بلوتوث", "link": "" },
+          { "title": "هندزفری بلوتوث دو گوش", "link": "" },
+          { "title": "هندزفری بلوتوث دورگردنی", "link": "" },
+          { "title": "هندزفری بلوتوث تک گوش", "link": "" }
         ]
       },
-      { "title": "پاوربانک و جامپ استارتر", "link": "javascript:void(0)" },
+      { "title": "پاوربانک و جامپ استارتر", "link": "" },
 
       {
         "title": "آداپتور و شارژر",
-        "link": "javascript:void(0)",
+        "link": "",
         "children": [
-          { "title": "شارژر دیواری", "link": "javascript:void(0)" },
-          { "title": "شارژر وایرلس", "link": "javascript:void(0)" },
-          { "title": "شارژر رومیزی", "link": "javascript:void(0)" },
-          { "title": "شارژر فندکی", "link": "javascript:void(0)" },
-          { "title": "شارژر سامسونگ", "link": "javascript:void(0)" },
-          { "title": "شارژر آیفون", "link": "javascript:void(0)" }
+          { "title": "شارژر دیواری", "link": "" },
+          { "title": "شارژر وایرلس", "link": "" },
+          { "title": "شارژر رومیزی", "link": "" },
+          { "title": "شارژر فندکی", "link": "" },
+          { "title": "شارژر سامسونگ", "link": "" },
+          { "title": "شارژر آیفون", "link": "" }
         ]
       },
-      { "title": "دسته بازی و خنک کننده موبایل", "link": "javascript:void(0)" },
-      { "title": "انواع تبدیل برق", "link": "javascript:void(0)" },
-      { "title": "کابل و دانگل انتقال تصویر", "link": "javascript:void(0)" },
-      { "title": "انواع هاب", "link": "javascript:void(0)" },
-      { "title": "قاب و گلس", "link": "javascript:void(0)" },
-      { "title": "نگهدارنده و هولدر", "link": "javascript:void(0)" }
+      { "title": "دسته بازی و خنک کننده موبایل", "link": "" },
+      { "title": "انواع تبدیل برق", "link": "" },
+      { "title": "کابل و دانگل انتقال تصویر", "link": "" },
+      { "title": "انواع هاب", "link": "" },
+      { "title": "قاب و گلس", "link": "" },
+      { "title": "نگهدارنده و هولدر", "link": "" }
     ]
   },
   {
     "title": "کابل - مبدل - رابط",
-    "link": "javascript:void(0)",
+    "link": "",
     "children": [
-      { "title": "کابل و فیش OTG", "link": "javascript:void(0)" },
-      { "title": "مبدل و هاب", "link": "javascript:void(0)" },
-      { "title": "دانگل و آداپتور", "link": "javascript:void(0)" },
-      { "title": "کابل HDMI", "link": "javascript:void(0)" },
-      { "title": "کابل پرینتر", "link": "javascript:void(0)" },
-      { "title": "کابل هارد اکسترنال", "link": "javascript:void(0)" },
-      { "title": "کابل AUX", "link": "javascript:void(0)" },
-      { "title": "کابل اپتیکال", "link": "javascript:void(0)" },
-      { "title": "کابل 2 به 1 صدا", "link": "javascript:void(0)" }
+      { "title": "کابل و فیش OTG", "link": "" },
+      { "title": "مبدل و هاب", "link": "" },
+      { "title": "دانگل و آداپتور", "link": "" },
+      { "title": "کابل HDMI", "link": "" },
+      { "title": "کابل پرینتر", "link": "" },
+      { "title": "کابل هارد اکسترنال", "link": "" },
+      { "title": "کابل AUX", "link": "" },
+      { "title": "کابل اپتیکال", "link": "" },
+      { "title": "کابل 2 به 1 صدا", "link": "" }
     ]
   },
   {
     "title": "لوازم تولید محتوا",
-    "link": "javascript:void(0)",
+    "link": "",
     "children": [
-      { "title": "میکروفون", "link": "javascript:void(0)" },
-      { "title": "رینگ لایت و پایه", "link": "javascript:void(0)" }
+      { "title": "میکروفون", "link": "" },
+      { "title": "رینگ لایت و پایه", "link": "" }
     ]
   },
   {
     "title": "لوازم شبکه",
-    "link": "javascript:void(0)",
+    "link": "",
     "children": [
-      { "title": "مودم و روتر", "link": "javascript:void(0)" },
-      { "title": "سوئیچ شبکه", "link": "javascript:void(0)" },
-      { "title": "تجهیزات PoE", "link": "javascript:void(0)" }
+      { "title": "مودم و روتر", "link": "" },
+      { "title": "سوئیچ شبکه", "link": "" },
+      { "title": "تجهیزات PoE", "link": "" }
     ]
   },
   {
     "title": "کنسول بازی و لوازم جانبی",
-    "link": "javascript:void(0)",
+    "link": "",
     "children": [
-      { "title": "کنسول بازی", "link": "javascript:void(0)" },
-      { "title": "دسته و کنترلر", "link": "javascript:void(0)" },
-      { "title": "هدست و تجهیزات صوتی", "link": "javascript:void(0)" },
-      { "title": "کیف", "link": "javascript:void(0)" },
-      { "title": "شارژر دسته بازی", "link": "javascript:void(0)" }
+      { "title": "کنسول بازی", "link": "" },
+      { "title": "دسته و کنترلر", "link": "" },
+      { "title": "هدست و تجهیزات صوتی", "link": "" },
+      { "title": "کیف", "link": "" },
+      { "title": "شارژر دسته بازی", "link": "" }
     ]
   },
   {
     "title": "لوازم خانگی و شخصی",
-    "link": "javascript:void(0)"
+    "link": ""
   },
-  { "title": "برندها", "link": "javascript:void(0)" }
+  { "title": "برندها", "link": "" }
 ]
