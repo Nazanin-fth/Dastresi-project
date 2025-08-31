@@ -7,7 +7,13 @@ function renderCategorySlides() {
     .map(
       (cat) => `
         <div class="swiper-slide flex flex-col items-center justify-center">
-          <img src="${cat.img}" alt="${cat.title}" class="w-auto h-auto object-contain rounded-xl mb-2" />
+          <a href="${
+            cat.url || "javascript:void(0)"
+          }" class="flex flex-col items-center justify-center w-full h-full">
+            <img src="${cat.img}" alt="${
+        cat.title
+      }" class="w-auto h-auto object-contain rounded-xl mb-2" />
+          </a>
         </div>
       `
     )
@@ -28,8 +34,8 @@ function initCategorySwiper() {
     breakpoints: {
       0: { slidesPerView: 2 },
       640: { slidesPerView: 4 },
-      1024: { slidesPerView: 6 }
-    }
+      1024: { slidesPerView: 6 },
+    },
   });
 }
 

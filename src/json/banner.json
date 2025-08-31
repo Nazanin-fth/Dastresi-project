@@ -2,16 +2,16 @@
   {
     "imgMobile": "./src/img/banner/mb-1.png",
     "imgDesktop": "./src/img/banner/banner-dastresi-1.png",
-    "link": "/"
+    "link": "javascript:void(0)"
   },
   {
     "imgMobile": "./src/img/banner/mb-2.png",
     "imgDesktop": "./src/img/banner/banner-dastresi-2.png",
-    "link": "/"
+    "link": "javascript:void(0)"
   },
   {
     "imgMobile": "./src/img/banner/mb-3.png",
     "imgDesktop": "./src/img/banner/banner-dastresi-4.png",
-    "link": "/"
+    "link": "javascript:void(0)"
   }
 ]

@@ -8,3 +8,4 @@ import './new-items.js';
 import './best-seller.js';
 import './brands.js';
 import './blog.js';
+import './footer.js';
