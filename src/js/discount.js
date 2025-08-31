@@ -128,7 +128,7 @@ function cardTemplate(card) {
   `;
 }
 
-fetch("./json/card.json")
+fetch("./public/json/card.json")
   .then((res) => res.json())
   .then((cards) => {
     renderCards(cards);

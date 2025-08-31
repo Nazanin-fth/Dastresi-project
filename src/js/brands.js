@@ -1,4 +1,4 @@
-fetch("./json/brands.json")
+fetch("./public/json/brands.json")
   .then((res) => res.json())
   .then((brands) => {
     const wrapper = document.querySelector(".swiper-brands .swiper-wrapper");
